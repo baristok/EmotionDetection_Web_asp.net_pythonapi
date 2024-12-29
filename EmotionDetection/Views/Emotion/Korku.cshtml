@@ -1,0 +1,67 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Korkma Benden</title>
+    <link rel="icon" href="~/images/korkma-benden.jpg">
+    <link rel="stylesheet" href="~/css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+
+</head>
+<body class="bg-light">
+
+<div class="container text-center py-5">
+    <div class="card shadow-sm border-0 mx-auto" style="max-width: 600px;">
+        <div class="card-body">
+            <h1 class="card-title text-primary">Korkma Benden!</h1>
+            <p class="card-text text-secondary">Benden Kokuyor musun?</p>
+            <img src="@ViewBag.GifUrl" alt="Komik GIF" class="img-fluid rounded mt-3" style="border-radius: 8px;">
+            <div class="mt-4">
+
+                <button id="yesButton" class="btn btn-success">Evet</button>
+
+                <button id="noButton" class="btn btn-danger">Hayır</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/script.js"></script>
+<script>
+
+
+const noButton = document.getElementById('noButton');
+const yesButton = document.getElementById('yesButton');
+
+const minX = 50;
+const maxX = 800;
+const minY = 50;
+const maxY = 500;
+
+
+noButton.addEventListener('click', () => {
+
+    const buttonWidth = noButton.offsetWidth;
+    const buttonHeight = noButton.offsetHeight;
+
+
+    const randomX = Math.floor(Math.random() * (maxX - minX - buttonWidth)) + minX;
+    const randomY = Math.floor(Math.random() * (maxY - minY - buttonHeight)) + minY;
+
+    noButton.style.position = 'absolute';
+    noButton.style.left = `${randomX}px`;
+    noButton.style.top = `${randomY}px`;
+    
+});
+yesButton.addEventListener('click', () => {
+    alert('Hahahah');
+});
+</script>
+</body>
+</html>

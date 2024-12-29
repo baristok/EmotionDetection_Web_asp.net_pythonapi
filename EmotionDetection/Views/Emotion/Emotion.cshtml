@@ -1,0 +1,100 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duygu Tespiti</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        #camera-container {
+            position: relative;
+            max-width: 600px;
+            margin: auto;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        video {
+            width: 100%;
+            height: auto;
+        }
+        #capture {
+            position: absolute;
+            bottom: 15px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 50px;
+            height: 50px;
+            background-color: white;
+            border: 2px solid #ccc;
+            border-radius: 50%;
+            cursor: pointer;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        #canvas {
+            display: none;
+        }
+    </style>
+</head>
+<body class="bg-light">
+    <div class="container text-center py-5">
+        <div id="camera-container">
+            <video id="video" autoplay></video>
+            <div id="capture"></div>
+        </div>
+        <canvas id="canvas"></canvas>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- JavaScript -->
+    <script>
+        const video = document.getElementById("video");
+        const canvas = document.getElementById("canvas");
+        const context = canvas.getContext("2d");
+
+
+        navigator.mediaDevices.getUserMedia({ video: true }).then(stream => {
+            video.srcObject = stream;
+        });
+
+        document.getElementById("capture").addEventListener("click", () => {
+            canvas.width = video.videoWidth;
+            canvas.height = video.videoHeight;
+            context.drawImage(video, 0, 0, canvas.width, canvas.height);
+
+
+            canvas.toBlob(blob => {
+                const formData = new FormData();
+                formData.append("file", blob);
+
+                fetch("/Emotion/Emotion", {
+                    method: "POST",
+                    body: formData
+                })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+
+                        window.location.href = `/Emotion/${data.emotion}`;
+                    } else {
+
+                        alert(data.message);
+                    }
+                })
+                .catch(error => {
+                    console.error("Error:", error);
+                    alert("Api Bakımda...");
+                });
+
+            });
+        });
+    </script>
+</body>
+</html>

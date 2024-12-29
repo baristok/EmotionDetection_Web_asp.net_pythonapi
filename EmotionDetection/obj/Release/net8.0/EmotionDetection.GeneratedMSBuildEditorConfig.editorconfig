@@ -1,0 +1,83 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = EmotionDetection
+build_property.RootNamespace = EmotionDetection
+build_property.ProjectDir = C:\Users\baris\OneDrive\Masaüstü\software_earth\dot_net_core_mvc\EmotionDetection\EmotionDetection\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\baris\OneDrive\Masaüstü\software_earth\dot_net_core_mvc\EmotionDetection\EmotionDetection
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/baris/OneDrive/Masaüstü/software_earth/dot_net_core_mvc/EmotionDetection/EmotionDetection/Views/Emotion/Emotion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1vdGlvblxFbW90aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/baris/OneDrive/Masaüstü/software_earth/dot_net_core_mvc/EmotionDetection/EmotionDetection/Views/Emotion/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1vdGlvblxFcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/baris/OneDrive/Masaüstü/software_earth/dot_net_core_mvc/EmotionDetection/EmotionDetection/Views/Emotion/gulmelisin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1vdGlvblxndWxtZWxpc2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/baris/OneDrive/Masaüstü/software_earth/dot_net_core_mvc/EmotionDetection/EmotionDetection/Views/Emotion/IgrenmeBenden.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1vdGlvblxJZ3Jlbm1lQmVuZGVuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/baris/OneDrive/Masaüstü/software_earth/dot_net_core_mvc/EmotionDetection/EmotionDetection/Views/Emotion/Korku.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1vdGlvblxLb3JrdS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/baris/OneDrive/Masaüstü/software_earth/dot_net_core_mvc/EmotionDetection/EmotionDetection/Views/Emotion/MutluOl.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1vdGlvblxNdXRsdU9sLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/baris/OneDrive/Masaüstü/software_earth/dot_net_core_mvc/EmotionDetection/EmotionDetection/Views/Emotion/SakinOl.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1vdGlvblxTYWtpbk9sLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/baris/OneDrive/Masaüstü/software_earth/dot_net_core_mvc/EmotionDetection/EmotionDetection/Views/Emotion/Supriz.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1vdGlvblxTdXByaXouY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/baris/OneDrive/Masaüstü/software_earth/dot_net_core_mvc/EmotionDetection/EmotionDetection/Views/Emotion/Uzulme.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1vdGlvblxVenVsbWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/baris/OneDrive/Masaüstü/software_earth/dot_net_core_mvc/EmotionDetection/EmotionDetection/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/baris/OneDrive/Masaüstü/software_earth/dot_net_core_mvc/EmotionDetection/EmotionDetection/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/baris/OneDrive/Masaüstü/software_earth/dot_net_core_mvc/EmotionDetection/EmotionDetection/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/baris/OneDrive/Masaüstü/software_earth/dot_net_core_mvc/EmotionDetection/EmotionDetection/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/baris/OneDrive/Masaüstü/software_earth/dot_net_core_mvc/EmotionDetection/EmotionDetection/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/baris/OneDrive/Masaüstü/software_earth/dot_net_core_mvc/EmotionDetection/EmotionDetection/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/baris/OneDrive/Masaüstü/software_earth/dot_net_core_mvc/EmotionDetection/EmotionDetection/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-2so140v5dr

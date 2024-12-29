@@ -1,0 +1,8 @@
+C:\Users\baris\OneDrive\Masaüstü\software_earth\dot_net_core_mvc\EmotionDetection\EmotionDetection\bin\Release\net8.0\publish\EmotionDetection.exe
+C:\Users\baris\OneDrive\Masaüstü\software_earth\dot_net_core_mvc\EmotionDetection\EmotionDetection\bin\Release\net8.0\publish\appsettings.Development.json
+C:\Users\baris\OneDrive\Masaüstü\software_earth\dot_net_core_mvc\EmotionDetection\EmotionDetection\bin\Release\net8.0\publish\appsettings.json
+C:\Users\baris\OneDrive\Masaüstü\software_earth\dot_net_core_mvc\EmotionDetection\EmotionDetection\bin\Release\net8.0\publish\EmotionDetection.dll
+C:\Users\baris\OneDrive\Masaüstü\software_earth\dot_net_core_mvc\EmotionDetection\EmotionDetection\bin\Release\net8.0\publish\EmotionDetection.deps.json
+C:\Users\baris\OneDrive\Masaüstü\software_earth\dot_net_core_mvc\EmotionDetection\EmotionDetection\bin\Release\net8.0\publish\EmotionDetection.runtimeconfig.json
+C:\Users\baris\OneDrive\Masaüstü\software_earth\dot_net_core_mvc\EmotionDetection\EmotionDetection\bin\Release\net8.0\publish\EmotionDetection.pdb
+C:\Users\baris\OneDrive\Masaüstü\software_earth\dot_net_core_mvc\EmotionDetection\EmotionDetection\bin\Release\net8.0\publish\Newtonsoft.Json.dll

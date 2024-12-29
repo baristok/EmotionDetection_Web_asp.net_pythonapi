@@ -1,0 +1,63 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f7f7f7;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.gift-box {
+    cursor: pointer;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.gift-box:hover {
+    transform: scale(1.1);
+}
+
+.gift-image {
+    width: 150px;
+    height: 150px;
+}
+
+.hidden {
+    display: none;
+}
+
+.surprise-image {
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    animation: popIn 0.5s ease-out;
+}
+
+.surprise-text {
+    font-size: 1.5rem;
+    color: #333;
+    margin-top: 10px;
+}
+
+@keyframes popIn {
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+

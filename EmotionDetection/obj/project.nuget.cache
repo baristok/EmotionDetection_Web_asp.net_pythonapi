@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "1+hu/OeSqG6+mXZFX+x/tEBzTjINgqIhu+QcRk4b0xC7ubqu/61JkrfJobjyvYzRZCnoQwBlrpW8Xs0P5GjBTA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\baris\\OneDrive\\Masaüstü\\software_earth\\dot_net_core_mvc\\EmotionDetection\\EmotionDetection\\EmotionDetection.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\baris\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
