@@ -36,7 +36,7 @@
                 <p><strong>
                     Apiye Ulaşmak İçin
                 </strong>
-                <a href="https://github.com/baristok/EmotionDetectionApi" target="_blank"></a>
+                <a href="https://github.com/baristok/EmotionDetectionApi" target="_blank">Tıkla</a>
             </p>
             </li>
         </ol>
